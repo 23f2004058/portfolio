@@ -1,0 +1,13 @@
+name: Hello World
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2004058@ds.study.iitm.ac.in
+        run: echo "Hello from IIT Madras DS student 23f2004058!"
